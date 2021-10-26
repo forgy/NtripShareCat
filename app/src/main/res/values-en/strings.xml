@@ -1,0 +1,278 @@
+<resources>
+    <string name="app_name">NtripShare</string>
+    <string name="platform_name">Android</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">NtripShare for Android</string>
+    <string name="nav_header_subtitle">RTK Data Share Tool By Mr.Peng</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Setting</string>
+    <string name="action_share">Share Info</string>
+    <string name="action_register">Register</string>
+    <string name="menu_home">Map</string>
+    <string name="menu_gallery">Client</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_user">User</string>
+    <string name="menu_update">Update</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_pro">Pro Version</string>
+    <string name="menu_slideshow">Log</string>
+    <string name="menu_about">About</string>
+    <string name="menu_net">Caster Net</string>
+    <string name="home_second">Home Second</string>
+    <string name="error_get_sourceTable">Mountpoint acquisition failed</string>
+    <string name="pro_des">1.Support source from blutooth.\n
+2.Support source from USB OTG.\n
+3.Support caster net.\n
+4.Support user management.\n
+5.Unlimited number of clients.\n
+    </string>
+    <string name="msg_private">App Privacy Policy\n
+Personal information\n
+This application does not collect or transmit any user s personally identifiable information. No personal information is used, stored, secured or disclosed by services this application works with.\n
+Technical information\n
+No technical information is sent or stored for now (such as IP addresses included in the HTTP calls the application makes). But we reserve the right to collect such informations in later versions to provide better service to you. We will update this privacy policy then.\n
+Third parties\n
+If the app makes use of third party services, their usage of information is excluded from this privacy policy. You will be clearly made aware of the third parties involved in the app and we will ensure the very minimal set of data is set to those third parties.\n
+Report violations or get more information\n
+If you would like to report any violations of this policy or get more information on this app, please contact us at giserpeng@163.com.
+</string>
+    <string name="msg_private_person">App Privacy Policy\n
+Personal information\n
+This application does not collect or transmit any user s personally identifiable information. No personal information is used, stored, secured or disclosed by services this application works with.\n
+Technical information\n
+No technical information is sent or stored for now (such as IP addresses included in the HTTP calls the application makes). But we reserve the right to collect such informations in later versions to provide better service to you. We will update this privacy policy then.\n
+Third parties\n
+If the app makes use of third party services, their usage of information is excluded from this privacy policy. You will be clearly made aware of the third parties involved in the app and we will ensure the very minimal set of data is set to those third parties.\n
+Report violations or get more information\n
+If you would like to report any violations of this policy or get more information on this app, please contact us at giserpeng@163.com.
+</string>
+    <string name="title_home">Map</string>
+    <string name="title_dashboard">Client</string>
+    <string name="title_notifications">Log</string>
+    <string name="title_version">App Version</string>
+    <string name="title_version_num">1.0.0</string>
+    <string name="log_connect">System Log</string>
+    <string name="log_other">User Log</string>
+
+    <string name="no_user">No Client Connected</string>
+    <string name="no_username">No User</string>
+    <string name="no_node">No Caster Point</string>
+    <!--        <string name="TRIAL_SERVER_URL">http://192.168.10.104:8080/trial/apply</string>-->
+    <!--        <string name="TRIAL_PRO_SERVER_URL">http://192.168.10.104:8080/trial/applyPro</string>-->
+    <!--        <string name="URL_VERSION">http://192.168.10.104:8080/trial/update</string>-->
+    <!--        <string name="URL_FEEDBACK">http://192.168.10.104:8080/trial/feedback</string>-->
+    <string name="TRIAL_SERVER_URL">http://cn0.ntripshare.com:8000/trial/apply</string>
+    <string name="TRIAL_PRO_SERVER_URL">http://cn0.ntripshare.com:8000/trial/applyPro</string>
+    <string name="URL_VERSION">http://cn0.ntripshare.com:8000/trial/update</string>
+    <string name="URL_FEEDBACK">http://cn0.ntripshare.com:8000/trial/feedback</string>
+    <string name="TRIAL_URL_DOC">http://cn0.ntripshare.com:8000/trial/doc</string>
+    <string name="URL_VERSION_PRO">http://pro0.ntripshare.com:8000/trial/updatePro</string>
+    <string name="URL_DOC">https://ntripshare.baklib-free.com/</string>
+    <string name="ResistCode">ResistCode</string>
+    <string name="soft_update_no">Latest Version</string>
+    <string name="soft_update_title">Software Update</string>
+    <string name="soft_update_info">New version detected, update now?</string>
+    <string name="soft_update_updatebtn">Update</string>
+    <string name="soft_update_later">Later</string>
+    <string name="soft_updating">Updating</string>
+    <string name="soft_update_cancel">Cancel</string>
+    <string name="menu_doc">Document</string>
+    <string name="is_pro">Currently it is a pro version!</string>
+
+    <string name="NTRIP_service_label">NTRIP Service</string>
+    <string name="NTRIP_service_running">NTRIP Service Running</string>
+    <string name="app_name_About">About NTRIP Client</string>
+    <string name="app_name_AboutNotificationSounds">About Notification Sounds</string>
+
+    <string name="app_name_SelectProfile">Pick A Profile</string>
+    <string name="app_name_pickmountpoint">Pick A Data Stream</string>
+    <string name="bytes">Bytes</string>
+    <string name="cancel">Cancel</string>
+    <string name="connect">Connect</string>
+    <string name="connecting">Connecting…</string>
+    <string name="desc_compass">Compass</string>
+    <string name="desc_down_arrow">Down Arrow</string>
+    <string name="desc_mountpoints_icon">Mountpoints</string>
+    <string name="desc_settings_icon">Settings</string>
+    <string name="desc_title_icon">Title</string>
+    <string name="desc_up_arrow">Up Arrow</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="hyphen">-</string>
+    <string name="loading">Loading…</string>
+    <string name="ok">OK</string>
+    <string name="ringtoneSummary">Notification Sound: %s</string>
+    <string name="ringtoneTitle">Notification Sound</string>
+    <string name="service_stopped">Stop Data Service...</string>
+    <string name="silent">Silent</string>
+    <string name="starting_service">Starting Data Service...</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="unknown">Unknown</string>
+    <string name="data_source_connected">Source:Connected</string>
+    <string name="data_source_reconnect">Data source Connected Fail and Reconnecting..</string>
+    <string name="server_connected">Server：Connected</string>
+    <string name="server_reconnect">Server Connected Fail and Reconnecting..</string>
+    <string name="connect_server_fail">Connect Server Fail</string>
+    <string name="user_login_fail">User Login Fail!</string>
+    <string name="user_login">User Login!</string>
+    <string name="register">Register</string>
+    <string name="trya">Trial</string>
+    <string name="pro_name">NtripShare Pro</string>
+    <string name="buy">Buy</string>
+    <string name="contact_me">Please Contact The Author at GISERPENG@163.COM！</string>
+    <string name="feedback_success">Feedback Submitted Successfully！</string>
+    <string name="try_fail">Trial Fail,</string>
+    <string name="try_ok">Trial Application Success,Valid for 3 days,Please Restart APP</string>
+    <string name="tips">Tips</string>
+    <string name="start_share_service">Please Start Sharing Service First</string>
+    <string name="server">Server</string>
+
+    <string name="port">Port</string>
+    <string name="username">Username</string>
+    <string name="mountpoint">Mountpoint</string>
+    <string name="password">Password</string>
+    <string name="fail_info">If Unable to Connect, Please Restart The APP</string>
+    <string name="share_info">Share Info</string>
+    <string name="copy">Copy</string>
+    <string name="copy_success">Copy Success</string>
+    <string name="start_fail">The current version is no longer in use. Please contact the author!</string>
+    <string name="usb_disconnect">USB is not connected!</string>
+    <string name="setting_first">Please set the data source first!</string>
+
+    <string name="source_disconnect">Source：Disconnect</string>
+    <string name="server_disconnect">Server：Disconnect</string>
+    <string name="User">Client</string>
+    <string name="confirm_exit">Are you sure?</string>
+    <string name="later">Later</string>
+    <string name="usb_connected">USB connected</string>
+    <string name="usb_no_permission">USB permission not granted</string>
+    <string name="usb_disconnected">USB disconnected</string>
+    <string name="usb_not_support">USB device not supported</string>
+
+    <string name="common_options">Common Options</string>
+    <string name="keep_screen_on">Keep Screen On</string>
+    <string name="show_info">Show shared information on start</string>
+    <string name="upload_gga">Require GGA</string>
+    <string name="map_typ">Map Type</string>
+    <string name="data_source">Data Source Settings</string>
+    <string name="network_protocol">Data Source</string>
+    <string name="ble_output">Bluetooth Output</string>
+    <string name="blutooth_mac">Mac</string>
+    <string name="server_ip">IP</string>
+    <string name="server_port">Port</string>
+    <string name="location_type">Location Type</string>
+    <string name="lat">Lat</string>
+    <string name="lon">Lon</string>
+    <string name="baud_rate">Baud Rate</string>
+    <string name="share_setting">Share Setting</string>
+    <string name="user_multiuser">Enable Multi User</string>
+    <string name="share_username">Share Username</string>
+    <string name="share_password">Share Password</string>
+    <string name="max_user_num">Maximum number client</string>
+    <string name="max_dis">Coverage (km)</string>
+    <string name="remove_client_time">Client GGA Limit(Seconds)</string>
+    <string name="ip_error">IP address error, please re-enter</string>
+    <string name="port_error">Port error, please re-enter</string>
+    <string name="add_node">Add</string>
+    <string name="check_update">Checking for Updates...</string>
+    <string name="User_zero">Client：0</string>
+    <string name="ip_hint">Please enter server IP</string>
+    <string name="noe_port">      Port：</string>
+    <string name="port_hint">Please enter the port</string>
+    <string name="username_hint">Please enter one username</string>
+    <string name="node_username">    Username：</string>
+    <string name="node_password">    Password：</string>
+    <string name="hint_password">Please enter one password</string>
+    <string name="node_mountpoint">    Mountpoint：</string>
+    <string name="hint_mountpoint">Please select mountpoint</string>
+    <string name="node_lon">    Longitude：</string>
+    <string name="node_lat">    Latitude：</string>
+    <string name="lon_hint">Please enter longitude</string>
+    <string name="lat_hint">Please enter latitude</string>
+    <string name="add_user">Add User</string>
+    <string name="user_username">Username：</string>
+    <string name="user_endtime">EndTime：</string>
+    <string name="hint_endtime">Please enter EndTim</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback_des">Please enter the problem description</string>
+    <string name="feedback_phone">Contact information（Webchat/QQ/Email）</string>
+    <string name="scan">Scan</string>
+    <string name="no_blutooth">No Bluetooth Device</string>
+    <string name="device_code">Device Code：</string>
+    <string name="copy_device_code">Copy Device Code</string>
+    <string name="private_policy">Privacy policy</string>
+    <string name="confirm_set_basecoord">Take this coordinate as the reference position？</string>
+    <string name="info_manual">Please change the position reporting mode to manual</string>
+    <string name="connect_time">Connect Time</string>
+    <string name="enter_des">Please fill in the problem description</string>
+    <string name="edit_node">Edit Node</string>
+    <string name="get_mountpoint_error">Error getting mountpoint</string>
+    <string name="enter_username">Please fill in the username</string>
+    <string name="enter_password">Please fill in the password</string>
+    <string name="enter_port">Please fill in the port</string>
+    <string name="enter_lon">Please fill in the longitude</string>
+    <string name="enter_lat">Please fill in the latitude</string>
+    <string name="enter_ip">Please fill in the IP</string>
+    <string name="enter_mountpoint">Please fill in the mountpoint</string>
+    <string name="node_max">The maximum number of nodes has been reached！</string>
+    <string name="node_remove">Delete</string>
+    <string name="confirm_remove">Are you sure to delete？</string>
+    <string name="node_remove_ok">Deletion succeeded</string>
+    <string name="open_bluetooth">Please turn on Bluetooth</string>
+    <string name="edit_user">Edit User</string>
+    <string name="enter_time">Please fill in the legal date</string>
+    <string name="user_exist">User already exists</string>
+    <string name="connect_source_server_log">Connected data source to server...</string>
+    <string name="connect_source_server_error_log">Wrong user name or password for connecting to the data source server...</string>
+    <string name="unknow_response">Connection to data source server, unrecognized server response...</string>
+    <string name="connect_tcp_server">TCP/IP server connected...</string>
+    <string name="connect_source_server_fail">Failed to connect to the data source server...</string>
+    <string name="connect_source_disconnect">The data source network connection has been disconnected...</string>
+    <string name="no_blutooth_support">Bluetooth is not supported on current device</string>
+    <string name="confirm_blutooth_open">Please make sure Bluetooth is turned on</string>
+    <string name="connecting_source">Connecting to data source server...</string>
+    <string name="is_running">is Running...</string>
+    <string name="caster_run">Caster Service is Running...</string>
+    <string name="request_connect">Request access</string>
+    <string name="mountpoint_close"> request mountpoint does not exist. Close the connection</string>
+    <string name="auth"> authentication, mountpoint is </string>
+    <string name="auth_pass"> authentication failed, username or password error</string>
+    <string name="auth_usermax"> authentication failed,The number of clients has reached the maximum</string>
+    <string name="auth_login"> authentication failed,User has logged in</string>
+    <string name="auth_ok"> authentication success, mountpoint is </string>
+    <string name="auth_fail"> authentication fail, mountpoint is </string>
+    <string name="begin_data">Start data transfer</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="latest_version">Latest Version</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="find_new_version">New version detected</string>
+    <string name="YuMing">URL</string>
+    <string name="user_logintime">Login Time：</string>
+    <string name="client_remove">Offline</string>
+    <string name="confirm_client_remove">Are you sure to offline the client?</string>
+    <string name="client_remove_ok">Finish Offline</string>
+    <string name="client">Client</string>
+    <string name="meter">meter</string>
+    <string name="connecting_server">Connecting to data server...</string>
+    <string name="connecting_server_success">Connection to data server succeeded...</string>
+    <string name="connecting_server_fail">Failed to connect to the data server...</string>
+    <string name="connect_blutooth">Connecting Bluetooth device...</string>
+    <string name="ble_mac_error">Illegal Bluetooth address</string>
+    <string name="ble_set">Please set Bluetooth device first...</string>
+    <string name="ble_error">Failed to create Bluetooth connection...</string>
+    <string name="connecting_ble">Connecting Bluetooth device ...</string>
+    <string name="connecting_ble_success">Connecting Bluetooth device succeeded....</string>
+    <string name="connecting_ble_fail">Failed to connect Bluetooth device....</string>
+    <string name="otg_output">OTG Output</string>
+    <string name="otg_setting">OTG Setting</string>
+    <string name="bluetooth_setting">Bluetooth Setting</string>
+    <string name="bluetooth_output">Bluetooth Output</string>
+    <string name="turnon_bluetooth_output">Please turn on Bluetooth output first!</string>
+    <string name="bluetooth_connected">Bluetooth connected</string>
+    <string name="switch_source">Please switch data source!</string>
+    <string name="enter_mountpoint_name">Enter</string>
+    <string name="update">Update</string>
+</resources>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="autoconfig_codes">
+        <item>none</item>
+        <item>novateloemv</item>
+        <item>novateloemvrtcmv3</item>
+        <item>novateloemvrtcm</item>
+        <item>novateloemvcmr</item>
+        <item>novateloemvcellular</item>
+        <item>hemispheregetgga</item>
+        <item>custom</item>
+    </string-array>
+    <string-array name="autoconfig_names">
+        <item>No Auto-Config</item>
+        <item>NovAtel OEMV</item>
+        <item>NovAtel OEMV RTCMv3</item>
+        <item>NovAtel OEMV RTCM</item>
+        <item>NovAtel OEMV CMR+</item>
+        <item>NovAtel OEMV w/Cellular</item>
+        <item>Hemisphere Get GGA</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="bkgcolor_codes">
+        <item>black</item>
+        <item>white</item>
+    </string-array>
+    <string-array name="bkgcolor_names">
+        <item>Black</item>
+        <item>White</item>
+    </string-array>
+    <string-array name="bluetoothconnection_codes">
+        <item>3</item>
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="bluetoothconnection_names">
+        <item>Insecure (Default)</item>
+        <item>Secure</item>
+        <item>Secure via Reflection</item>
+        <item>Insecure via Reflection</item>
+    </string-array>
+    <string-array name="extraRingtoneTitles">
+        <item>Industrial Alarm</item>
+    </string-array>
+    <string-array name="extraRingtones">
+        <item>industrial_alarm</item>
+    </string-array>
+    <string-array name="info_codes">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>16</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>18</item>
+        <item>19</item>
+        <item>10</item>
+        <item>11</item>
+        <item>20</item>
+        <item>21</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="info_names">
+        <item>Correction Age</item>
+        <item>Elevation (Feet)</item>
+        <item>Elevation (Meters)</item>
+        <item>Speed (MPH)</item>
+        <item>Speed (Km/h)</item>
+        <item>GPS Heading</item>
+        <item>Vehicle Heading</item>
+        <item>H-DOP</item>
+        <item>V-DOP (from GPGSA)</item>
+        <item>P-DOP (from GPGSA)</item>
+        <item>2D RMS (from GST)</item>
+        <item>3D RMS (from GST/LLQ)</item>
+        <item>Latitude DD.ddd</item>
+        <item>Longitude DDD.ddd</item>
+        <item>Latitude DD.MM.SS</item>
+        <item>Longitude DDD.MM.SS</item>
+        <item>GPS Time</item>
+        <item>Undulation</item>
+        <item>Correction Station ID</item>
+        <item>Baseline Length (from PSTI)</item>
+        <item>Nothing</item>
+    </string-array>
+    <string-array name="ntriplocation_codes">
+        <item>auto</item>
+        <item>manual</item>
+        <item>internalfine</item>
+    </string-array>
+    <string-array name="ntriplocation_names">
+        <item>auto</item>
+        <item>Manual</item>
+        <item>Android GPS</item>
+    </string-array>
+    <string-array name="premium_GC_surface_type_codes">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="premium_GC_surface_type_names">
+        <item>Level</item>
+        <item>Sloped</item>
+    </string-array>
+    <string-array name="premium_GN_display_mode_codes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="premium_GN_display_mode_names">
+        <item>Text Northing/Easting (default)</item>
+        <item>Arrow/Distance, North = Up</item>
+        <item>Arrow/Distance, Vehicle Heading = Up</item>
+        <item>Arrow/Distance, Magnetometer</item>
+    </string-array>
+    <string-array name="premium_GN_pattern_codes">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="premium_GN_pattern_names">
+        <item>Rectangular (default)</item>
+        <item>Hexagonal</item>
+    </string-array>
+    <string-array name="premium_TM_display_mode_codes">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="premium_TM_display_mode_names">
+        <item>Distance, Heading, Elevation, Slope</item>
+        <item>Easting, Northing, Z</item>
+    </string-array>
+    <string-array name="premium_units_codes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="premium_units_names">
+        <item>Meters</item>
+        <item>Feet</item>
+        <item>Feet &amp; Inches</item>
+    </string-array>
+    <string-array name="protocol_codes">
+        <item>ntripv1</item>
+        <item>rawtcpip</item>
+        <item>bluetooth</item>
+        <item>ntripnet</item>
+        <item>otg</item>
+    </string-array>
+    <string-array name="baud_rates">
+        <item>300</item>
+        <item>600</item>
+        <item>1200</item>
+        <item>2400</item>
+        <item>4800</item>
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+        <item>230400</item>
+        <item>460800</item>
+        <item>921600</item>
+    </string-array>
+    <string-array name="netNum">
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="protocol_names">
+        <item>Cors</item>
+        <item>TCP/IP</item>
+        <item>Blutooth</item>
+        <item>Caster Net</item>
+        <item>USB OTG</item>
+    </string-array>
+
+    <string-array name="map_codes">
+        <item>street</item>
+        <item>satellite</item>
+    </string-array>
+    <string-array name="map_names">
+        <item>Street</item>
+        <item>Satellite</item>
+    </string-array>
+    <string-array name="sourcetable_codes">
+    </string-array>
+    <string-array name="sourcetable_names">
+    </string-array>
+    <string-array name="receiverconnection_codes">
+        <item>none</item>
+        <item>bluetooth</item>
+        <item>tcp</item>
+        <item>udp</item>
+    </string-array>
+    <string-array name="receiverconnection_names">
+        <item>None (NTRIP Testing Mode)</item>
+        <item>External via Bluetooth</item>
+        <item>External via TCP/IP (Beta)</item>
+        <item>Internal via UDP (Development Only)</item>
+    </string-array>
+    <string-array name="server_codes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="server_names">
+        <item>默认服务器</item>
+        <item>高级服务器1(华为云)</item>
+        <item>高级服务器2(华为云)</item>
+        <item>高级服务器3(华为云)</item>
+        <item>高级服务器4(华为云)</item>
+        <item>高级服务器5(百度云)</item>
+        <item>普通服务器1(腾讯云)</item>
+    </string-array>
+</resources>

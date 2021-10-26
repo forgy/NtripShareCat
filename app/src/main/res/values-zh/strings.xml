@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RTK差分共享猫</string>
+    <string name="platform_name">Android</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">RTK差分共享猫 for Android</string>
+    <string name="nav_header_subtitle">RTK差分数据共享神器 By Mr.Peng</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">设置</string>
+    <string name="action_share">共享信息</string>
+    <string name="action_register">注册</string>
+    <string name="menu_home">地图</string>
+    <string name="menu_gallery">客户端</string>
+    <string name="menu_setting">系统设置</string>
+    <string name="menu_user">用户管理</string>
+    <string name="menu_update">检查更新</string>
+    <string name="menu_feedback">问题反馈</string>
+    <string name="menu_pro">高级版本</string>
+    <string name="menu_slideshow">系统日志</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_net">组网管理</string>
+    <string name="menu_doc">帮助文档</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="error_get_sourceTable">获取接入点失败</string>
+    <string name="pro_des">1.支持蓝牙数据源.\n
+2.支持OTG数据源.\n
+3.支持Ntrip组网.\n
+4.自定义用户管理.\n
+5.客户端数量不限.\n
+6.支持蓝牙输出差分数据.\n
+7.支持OTG输出差分数据.\n
+8.高性能/大带宽服务器.\n
+    </string>
+    <string name="msg_private">一、免责声明\n
+1.一切移动客户端用户在下载并使用RTK差分共享猫APP软件时均被视为已经仔细阅读本条款并完全同意。凡以任何方式登陆本APP，或直接、间接使用本APP资料及数据者，均被视为自愿接受本APP相关声明和用户服务协议的约束。\n
+2.RTK差分共享猫APP所使用的CORS账号、差分数据等资料，如果侵犯了第三方的知识产权或其他权利，责任由用户本人承担，本APP对此不承担责任。\n
+3.用户明确并同意其使用RTK差分共享猫APP服务所存在的风险将完全由其本人承担;因其使用RTK差分共享猫APP服务而产生的一切后果也由其本人承担，RTK差分共享猫APP对此不承担任何责任。\n
+4.除RTK差分共享猫APP注明之服务条款外，其它因不当使用本APP而导致的任何意外、疏忽、合约毁坏、诽谤、版权或其他知识产权侵犯及其所造成的任何损失，RTK差分共享猫APP概不负责，亦不承担任何法律责任。\n
+5.对于因不可抗力或因黑客攻击、通讯线路中断等RTK差分共享猫APP不能控制的原因造成的网络服务中断或其他缺陷，导致用户不能正常使用RTK差分共享猫APP，RTK差分共享猫APP不承担任何责任，但将尽力减少因此给用户造成的损失或影响。\n
+6.本声明未涉及的问题请参见国家有关法律法规，当本声明与国家有关法律法规冲突时，以国家法律法规为准。\n
+7.本APP相关声明版权及其修改权、更新权和最终解释权均属RTK差分共享猫APP所有。\n
+二、隐私协议\n
+RTK差分共享猫尊重并保护所有使用服务用户的个人隐私权。RTK差分共享猫会不时更新本隐私权政策。 您在同意RTK差分共享猫服务使用协议之时，即视为您已经同意本隐私权政策全部内容。本隐私权政策属于RTK差分共享猫服务使用协议不可分割的一部分。\n
+1. 适用范围\n
+a) 在您使用RTK差分共享猫服务， RTK差分共享猫自动接收并记录的您的手机上的信息，包括但不限于您的IP地址、位置信息、软硬件特征信息等数据；\n
+b) RTK差分共享猫通过合法途径从商业伙伴处取得的用户个人数据。\n
+您了解并同意，以下信息不适用本隐私权政策：\n
+a) 您在使用RTK差分共享猫时提供的服务时输入的关键信息；\n
+b) 违反法律规定或违反RTK差分共享猫规则行为及RTK差分共享猫已对您采取的措施。\n
+2. 信息使用\n
+a) RTK差分共享猫不会向任何无关第三方提供、出售、出租、分享或交易您的个人信息，除非事先得到您的许可，或该第三方和RTK差分共享猫（含RTK差分共享猫关联公司）单独或共同为您提供服务，且在该服务结束后，其将被禁止访问包括其以前能够访问的所有这些资料。\n
+b) RTK差分共享猫亦不允许任何第三方以任何手段收集、编辑、出售或者无偿传播您的个人信息。任何RTK差分共享猫平台用户如从事上述活动，一经发现，RTK差分共享猫有权立即终止与该用户的服务协议。\n
+c) 为服务用户的目的，RTK差分共享猫可能通过使用您的个人信息，向您提供您感兴趣的信息，包括但不限于向您发出产品和服务信息，或者与RTK差分共享猫合作伙伴共享信息以便他们向您发送有关其产品和服务的信息（后者需要您的事先同意）。\n
+3. 信息披露\n
+在如下情况下，RTK差分共享猫将依据您的个人意愿或法律的规定全部或部分的披露您的个人信息：\n
+a) 经您事先同意，向第三方披露；\n
+b) 为提供您所要求的产品和服务，而必须和第三方分享您的个人信息；\n
+c) 根据法律的有关规定，或者行政或司法机构的要求，向第三方或者行政、司法机构披露；\n
+d) 如您出现违反中国有关法律、法规或者RTK差分共享猫服务协议或相关规则的情况，需要向第三方披露；\n
+e) 如您是适格的知识产权投诉人并已提起投诉，应被投诉人要求，向被投诉人披露，以便双方处理可能的权利纠纷；\n
+f) 其它RTK差分共享猫根据法律、法规或者APP政策认为合适的披露。\n
+4. 信息存储和交换\n
+RTK差分共享猫收集的有关您的信息和资料将保存在RTK差分共享猫及（或）其关联公司的服务器上，这些信息和资料可能传送至您所在国家、地区或RTK差分共享猫收集信息和资料所在地的境外并在境外被访问、存储和展示。\n
+5. 信息安全\n
+a) RTK差分共享猫帐号均有安全保护功能，请妥善保管您的用户名及密码信息。RTK差分共享猫将通过对用户密码进行加密等安全措施确保您的信息不丢失，不被滥用和变造。尽管有前述安全措施，但同时也请您注意在信息网络上不存在“完善的安全措施”。\n
+b) 在使用RTK差分共享猫技术服务时。请您妥善保护自己的个人信息，仅在必要的情形下向他人提供。如您发现自己的个人信息泄密，尤其是RTK差分共享猫用户名及密码发生泄露，请您立即联络RTK差分共享猫客服，以便RTK差分共享猫采取相应措施。\n
+</string>
+    <string 
+name="msg_private_person">
+本人与RTK差分共享猫APP注重您个人隐私的保护。有时候我们需要某些信息才能为您提供您请求的服务，本隐私权声明解释了这些情况下的数据收集和使用情况。本隐私权声明适用于RTK差分共享猫APP应用产品的所有相关服务。\n
+您个人信息的搜集\n
+当我们需要能识别您身份的信息（个人信息）或者可以与您联系的信息时，我们会征求您的同意。\n
+控制您的个人信息\n
+本人与RTK差分共享猫APP会在法律要求的相关服务条款、软件许可使用协议约定的情况下透露您的个人信息，或者有充分理由相信必须这样做才能：\n
+        (a) 满足法律的明文规定，或者符合本应用适用的法律程序；\n
+        （b）符合RTK差分共享猫APP相关服务条款、软件许可使用协议的约定；\n
+        (c) 保护本人与RTK差分共享猫APP的权利或财产，以及在紧急情况下保护本人与RTK差分共享猫APP产品或服务的用户或大众的个人安全。\n
+本人与RTK差分共享猫APP不会未经允许将这些信息与第三方共享，本声明已经列出的情况除外。\n
+您个人信息的安全\n
+严格保护您的个人信息的安全。我们使用各种安全技术和程序来保护您的个人信息不被未经授权的访问、使用或泄漏。如果您对我们的隐私保护有任何置疑，请email至 GISERPENG@163.com\n
+关于免责\n
+就下列相关事宜的发生，本人与RTK差分共享猫APP不承担任何法律责任：\n
+ (a) 根据法律规定或相关政府的要求提供您的个人信息;\n
+ (b) 非因本人与RTK差分共享猫APP原因导致的个人信息的泄漏；\n
+ (c) 任何第三方根据RTK差分共享猫APP各服务条款及声明中所列明的情况使用您的个人信息由此所产生的纠纷；\n
+ (d) 任何由于黑客攻击、电脑病毒侵入或政府管制而造成的暂时性服务停止；\n
+ (e) 因不可抗力导致的任何后果；\n
+本人RTK差分共享猫APP在各服务条款及声明中列明的免责情形 。\n
+隐私声明的修订：\n
+根据需要，将随时修改本隐私声明。我们建议用户定期上网查看最新的隐私政策于使用条款规定。未来任何条款如有更新，我们将不主动提醒用户，亦不会回溯应用在之前所发生的情形，同时不会改变我们对于之前所收集的资料之处理方式。\n
+作者：彭福国，联系方式：GISERPENG@163.com；\n
+</string>
+    <string 
+name="title_home">地图</string>
+    <string name="title_dashboard">客户端</string>
+    <string name="title_notifications">日志</string>
+    <string name="title_version">App Version</string>
+    <string name="title_version_num">1.0.0</string>
+    <string name="log_connect">系统日志</string>
+    <string name="log_other">用户日志</string>
+    <string name="no_user">当前没有客户端连接</string>
+    <string name="no_username">当前没有用户</string>
+    <string name="no_node">当前没有节点</string>
+<!--    <string name="TRIAL_SERVER_URL">http://192.168.10.102:8000/trial/apply</string>-->
+<!--    <string name="TRIAL_PRO_SERVER_URL">http://192.168.10.102:8000/trial/applyPro</string>-->
+<!--    <string name="URL_VERSION">http://192.168.10.102:8000/trial/update</string>-->
+<!--    <string name="URL_VERSION_PRO">http://192.168.10.102:8000/trial/updatePro</string>-->
+<!--    <string name="URL_FEEDBACK">http://192.168.10.102:8000/trial/feedback</string>-->
+<!--    <string name="TRIAL_URL_DOC">http://192.168.10.102:8000/trial/doc</string>-->
+    <string name="TRIAL_SERVER_URL">http://cn0.ntripshare.com:8000/trial/apply</string>
+    <string name="TRIAL_PRO_SERVER_URL">http://cn0.ntripshare.com:8000/trial/applyPro</string>
+    <string name="URL_VERSION">http://cn0.ntripshare.com:8000/trial/update</string>
+    <string name="URL_FEEDBACK">http://cn0.ntripshare.com:8000/trial/feedback</string>
+    <string name="TRIAL_URL_DOC">http://cn0.ntripshare.com:8000/trial/doc</string>
+    <string name="URL_VERSION_PRO">http://pro0.ntripshare.com:8000/trial/updatePro</string>
+    <string name="URL_DOC">https://ntripshare.baklib-free.com/</string>
+    <string name="ResistCode">ResistCode</string>
+    <string name="soft_update_no">已经是最新版本</string>
+    <string name="soft_update_title">软件更新</string>
+    <string name="soft_update_info">检测到新版本，立即更新吗</string>
+    <string name="soft_update_updatebtn">更新</string>
+    <string name="soft_update_later">稍后更新</string>
+    <string name="soft_updating">正在更新</string>
+    <string name="soft_update_cancel">取消</string>
+
+    <string name="NTRIP_service_label">NTRIP Service</string>
+    <string name="NTRIP_service_running">NTRIP Service Running</string>
+    <string name="app_name_About">About NTRIP Client</string>
+    <string name="app_name_AboutNotificationSounds">About Notification Sounds</string>
+
+    <string name="app_name_SelectProfile">Pick A Profile</string>
+    <string name="app_name_pickmountpoint">Pick A Data Stream</string>
+    <string name="bytes">Bytes</string>
+    <string name="cancel">取消</string>
+    <string name="connect">连接</string>
+    <string name="connecting">Connecting…</string>
+    <string name="desc_compass">Compass</string>
+    <string name="desc_down_arrow">Down Arrow</string>
+    <string name="desc_mountpoints_icon">Mountpoints</string>
+    <string name="desc_settings_icon">Settings</string>
+    <string name="desc_title_icon">Title</string>
+    <string name="desc_up_arrow">Up Arrow</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="hyphen">-</string>
+    <string name="loading">Loading…</string>
+    <string name="ok">确定</string>
+    <string name="ringtoneSummary">Notification Sound: %s</string>
+    <string name="ringtoneTitle">Notification Sound</string>
+    <string name="service_stopped">停止数据服务...</string>
+    <string name="silent">Silent</string>
+    <string name="starting_service">正在启动数据服务...</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="unknown">Unknown</string>
+    <string name="bluetooth_connected">蓝牙已连接</string>
+    <string name="data_source_connected">数据源：已连接</string>
+    <string name="data_source_reconnect">数据源连接失败,正在重新连接..</string>
+    <string name="server_connected">服务器：已连接</string>
+    <string name="server_reconnect">服务器连接失败,正在重新连接..</string>
+    <string name="connect_server_fail">与服务器通信失败</string>
+    <string name="user_login_fail">用户登录失败!</string>
+    <string name="user_login">用户登录成功!</string>
+    <string name="register">请输入注册码</string>
+    <string name="trya">试用</string>
+    <string name="pro_name">RTK差分共享猫Pro</string>
+    <string name="buy">开通</string>
+    <string name="contact_me">请联系作者,微信：NtripShare!</string>
+    <string name="feedback_success">提交反馈成功！</string>
+    <string name="try_fail">试用失败，</string>
+    <string name="try_ok">试用申请成功,已开启高级功能(普通服务器)，有效期3天，请重新启动APP！如需试用高级版服务器，请联系作者！</string>
+    <string name="tips">提示</string>
+    <string name="start_share_service">请先启动共享服务!</string>
+    <string name="server">服务器</string>
+    <string name="port">端口</string>
+    <string name="username">用户名</string>
+    <string name="mountpoint">接入点</string>
+    <string name="password">密码</string>
+    <string name="fail_info">--如无法连接，请彻底关闭并重启--</string>
+    <string name="share_info">共享信息</string>
+    <string name="copy">复制</string>
+    <string name="copy_success">复制成功</string>
+    <string name="is_pro">当前已经是Pro版本！</string>
+    <string name="start_fail">当前版本已停止使用，请联系作者！</string>
+    <string name="usb_disconnect">Usb未连接！</string>
+    <string name="setting_first">请先设置数据源信息！</string>
+    <string name="source_disconnect">数据源：未连接</string>
+    <string name="server_disconnect">服务器：未连接</string>
+    <string name="User">客户端</string>
+    <string name="confirm_exit">您确定退出?</string>
+    <string name="later">容我再想想</string>
+    <string name="usb_connected">USB已连接</string>
+    <string name="usb_no_permission">未赋予USB权限</string>
+    <string name="usb_disconnected">USB连接已断开</string>
+    <string name="usb_not_support">USB设备不支持</string>
+    <string name="common_options">常用选项</string>
+    <string name="keep_screen_on">保持屏幕常亮</string>
+    <string name="show_info">启动显示共享信息</string>
+    <string name="upload_gga">客户端上传GGA</string>
+    <string name="map_typ">地图类型</string>
+    <string name="data_source">数据源设置</string>
+    <string name="network_protocol">数据源</string>
+    <string name="blutooth_mac">蓝牙地址</string>
+    <string name="server_ip">服务器IP</string>
+    <string name="server_port">服务器端口</string>
+    <string name="location_type">上报位置方式</string>
+    <string name="lat">纬度</string>
+    <string name="lon">经度</string>
+    <string name="baud_rate">波特率</string>
+    <string name="share_setting">共享设置</string>
+    <string name="user_multiuser">启用多用户管理</string>
+    <string name="share_username">共享用户名</string>
+    <string name="share_password">共享密码</string>
+    <string name="max_user_num">允许最大用户数</string>
+    <string name="max_dis">覆盖范围（公里）</string>
+    <string name="remove_client_time">客户端剔除时间(秒)</string>
+    <string name="ip_error">IP地址输入错误，请重新输入</string>
+    <string name="port_error">端口地址输入错误，请重新输入</string>
+    <string name="add_node">添加节点</string>
+    <string name="check_update">正在检查更新...</string>
+    <string name="User_zero">客户端：0</string>
+    <string name="ip_hint">请输入服务器IP</string>
+    <string name="noe_port">      端口：</string>
+    <string name="port_hint">请输入端口</string>
+    <string name="username_hint">请输入用户名</string>
+    <string name="node_password">    密码：</string>
+    <string name="node_username">    用户名：</string>
+    <string name="hint_password">请输入密码</string>
+    <string name="node_mountpoint">    接入点：</string>
+    <string name="hint_mountpoint">请选择接入点</string>
+    <string name="node_lon">    经度：</string>
+    <string name="node_lat">    纬度：</string>
+    <string name="lon_hint">请输入经度</string>
+    <string name="lat_hint">请输入纬度</string>
+    <string name="add_user">添加用户</string>
+    <string name="user_username">用户名：</string>
+    <string name="user_endtime">有效期：</string>
+    <string name="user_logintime">上次登录：</string>
+    <string name="YuMing">域名</string>
+    <string name="hint_endtime">请输入有效期：</string>
+    <string name="feedback">问题反馈</string>
+    <string name="feedback_des">请输入问题描述</string>
+    <string name="feedback_phone">联系方式（微信/QQ/Email）</string>
+    <string name="scan">扫描</string>
+    <string name="no_blutooth">没有发现蓝牙设备</string>
+    <string name="device_code">机器码：</string>
+    <string name="copy_device_code">复制机器码</string>
+    <string name="private_policy">用户隐私及免责声明</string>
+    <string name="confirm_set_basecoord">将该坐标为基准位置？</string>
+    <string name="info_manual">请将位置上报方式改为固定坐标</string>
+    <string name="connect_time">连接时间</string>
+    <string name="enter_des">请填写问题描述</string>
+    <string name="edit_node">编辑节点</string>
+    <string name="get_mountpoint_error">获取接入点出错</string>
+    <string name="enter_username">请填写用户名</string>
+    <string name="enter_password">请填写密码</string>
+    <string name="enter_ip">请正确填写IP</string>
+    <string name="enter_port">请填写端口</string>
+    <string name="enter_lon">请填写经度</string>
+    <string name="enter_lat">请填写纬度</string>
+    <string name="enter_mountpoint">请输入接入点</string>
+    <string name="node_max">组网节点已达最大数量限制！</string>
+    <string name="node_remove">删除</string>
+    <string name="confirm_remove">确认删除吗？</string>
+    <string name="node_remove_ok">删除成功</string>
+
+    <string name="client_remove">下线</string>
+    <string name="confirm_client_remove">确认下线该客户端吗？</string>
+    <string name="client_remove_ok">下线成功</string>
+    <string name="open_bluetooth">请打开蓝牙</string>
+    <string name="edit_user">编辑用户</string>
+    <string name="enter_time">请填写合法日期</string>
+    <string name="user_exist">用户已存在</string>
+    <string name="connect_source_server_log">已连数据源...</string>
+    <string name="connect_source_server_error_log">连接数据源用户名或密码错误...</string>
+    <string name="unknow_response">连接数据源,未能识别的响应...</string>
+    <string name="connect_tcp_server">已连接TCP/IP服务器...</string>
+    <string name="connect_source_server_fail">连接数据源,网络连接失败...</string>
+    <string name="connect_source_disconnect">数据源网络连接已断开...</string>
+    <string name="no_blutooth_support">当前设备不支持蓝牙</string>
+    <string name="confirm_blutooth_open">请确认是否已打开蓝牙</string>
+    <string name="connect_blutooth">正在连接蓝牙设备...</string>
+    <string name="connecting_source">正在连接数据源...</string>
+    <string name="is_running">正在运行...</string>
+    <string name="caster_run">Caster服务已启动...</string>
+    <string name="request_connect">请求接入</string>
+    <string name="mountpoint_close">请求接入点不存在，关闭连接</string>
+    <string name="auth">授权验证，接入点</string>
+    <string name="auth_pass">授权验证失败，用户名或密码错误</string>
+    <string name="auth_usermax">授权验证失败，客户端数量已达最大连接数限制</string>
+    <string name="auth_login">授权验证失败，已登录</string>
+    <string name="auth_ok">授权验证成功，接入点</string>
+    <string name="auth_fail">授权验证失败，接入点</string>
+    <string name="begin_data">开始传输数据</string>
+    <string name="online">在线</string>
+    <string name="offline">离线</string>
+    <string name="latest_version">已经是最新版本</string>
+    <string name="accept">接受</string>
+    <string name="reject">拒绝</string>
+    <string name="find_new_version">检查到新版本</string>
+    <string name="client">客户端</string>
+    <string name="meter">米</string>
+    <string name="connecting_server">正在连接服务器...</string>
+    <string name="connecting_server_success">连接服务器成功...</string>
+    <string name="connecting_server_fail">连接服务器失败...</string>
+    <string name="ble_mac_error">不合法的蓝牙地址</string>
+    <string name="ble_set">请先设置数据源蓝牙设备...</string>
+    <string name="ble_error">创建蓝牙连接失败...</string>
+    <string name="connecting_ble">正在连接蓝牙设备...</string>
+    <string name="connecting_ble_success">连接蓝牙成功设备...</string>
+    <string name="connecting_ble_fail">连接蓝牙失败设备...</string>
+    <string name="otg_output">OTG输出</string>
+
+    <string name="otg_setting">OTG设置</string>
+    <string name="bluetooth_setting">蓝牙设置</string>
+    <string name="bluetooth_output">蓝牙输出</string>
+    <string name="ble_output">蓝牙输出</string>
+    <string name="turnon_bluetooth_output">请先开启蓝牙输出</string>
+    <string name="switch_source">请切换数据源</string>
+    <string name="enter_mountpoint_name">自定义</string>
+    <string name="update">更新</string>
+<!--    <string name="connecting_source">已连接数据源服务器...</string>-->
+<!--    <string name="connecting_source_success">已连接数据源服务器...</string>-->
+<!--    <string name="connecting_source_fail">连接数据服务器失败...</string>-->
+</resources>

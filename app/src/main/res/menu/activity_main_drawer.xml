@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <group android:id="@+id/group3">
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_setting"
+            android:title="@string/menu_setting" />
+    </group>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_map"
+            android:title="@string/menu_home"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_dash"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="@string/title_dashboard"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_log"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="@string/title_notifications"
+            android:visible="false" />
+        <group android:id="@+id/group5">
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/ic_user"
+            android:title="@string/menu_user" />
+    </group>
+        <group android:id="@+id/group7">
+            <item
+                android:id="@+id/nav_net"
+                android:icon="@drawable/ic_network"
+                android:title="@string/menu_net" />
+        </group>
+        <group android:id="@+id/group10">
+            <item
+                android:id="@+id/nav_doc"
+                android:icon="@drawable/ic_doc"
+                android:title="@string/menu_doc" />
+        </group>
+        <group android:id="@+id/group9">
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="@string/menu_feedback" />
+        </group>
+        <group android:id="@+id/group2">
+        <item
+            android:id="@+id/nav_update"
+            android:icon="@drawable/ic_update"
+            android:title="@string/menu_update" />
+    </group>
+        <group android:id="@+id/group6">
+        <item
+            android:id="@+id/nav_pro"
+            android:icon="@drawable/ic_pro"
+            android:title="@string/menu_pro" />
+    </group>
+        <group android:id="@+id/group4">
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_ahout"
+                android:title="@string/menu_about" />
+        </group>
+
+    </group>
+</menu>

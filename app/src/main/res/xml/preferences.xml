@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:auto="http://schemas.android.com/apk/res-auto"
+    android:key="main">
+    <PreferenceCategory android:title="@string/common_options">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_menu_send"
+            android:key="keepscreenon"
+            android:title="@string/keep_screen_on" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_menu_send"
+            android:key="showinfo"
+            android:title="@string/show_info" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_menu_send"
+            android:key="otgOut"
+            android:title="@string/otg_output" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_menu_send"
+            android:key="bluetoothOut"
+            android:title="@string/bluetooth_output" />
+        <ListPreference
+            android:defaultValue="street"
+            android:entries="@array/map_names"
+            android:entryValues="@array/map_codes"
+            android:icon="@drawable/ic_menu_send"
+            android:key="maptype"
+            android:title="@string/map_typ" />
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/server_names"
+            android:entryValues="@array/server_codes"
+            android:icon="@drawable/ic_menu_send"
+            android:key="sel_server"
+            android:title="@string/server" />
+        <ListPreference
+            android:defaultValue="ntripv1"
+            android:entries="@array/protocol_names"
+            android:entryValues="@array/protocol_codes"
+            android:icon="@drawable/ic_menu_send"
+            android:key="networkprotocol"
+            android:title="@string/network_protocol" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="data_source"
+        android:title="@string/data_source">
+        <EditTextPreference
+            android:defaultValue="000.000.00.000"
+            android:dialogTitle="IP (x.x.x.x)"
+            android:icon="@drawable/ic_menu_send"
+            android:key="ntripcasterip"
+            android:summary="000.000.00.000"
+            android:title="@string/server_ip" />
+        <EditTextPreference
+            android:defaultValue="8003"
+            android:dialogTitle="@string/server_port"
+            android:icon="@drawable/ic_menu_send"
+            android:inputType="number"
+            android:key="ntripcasterport"
+            android:summary="8003"
+            android:title="@string/server_port" />
+        <EditTextPreference
+            android:defaultValue="username"
+            android:dialogTitle="@string/username"
+            android:icon="@drawable/ic_menu_send"
+            android:key="ntripusername"
+            android:summary="ntripusername"
+            android:title="@string/username" />
+        <EditTextPreference
+            android:defaultValue="password"
+            android:dialogTitle="@string/password"
+            android:icon="@drawable/ic_menu_send"
+            android:key="ntrippassword"
+            android:summary="ntrippassword"
+            android:title="@string/password" />
+        <ListPreference
+            android:entries="@array/sourcetable_names"
+            android:entryValues="@array/sourcetable_codes"
+            android:icon="@drawable/ic_menu_send"
+            android:key="ntripsourcetable"
+            android:summary="@string/mountpoint"
+            android:title="@string/mountpoint" />
+        <ListPreference
+            android:defaultValue="internalfine"
+            android:entries="@array/ntriplocation_names"
+            android:entryValues="@array/ntriplocation_codes"
+            android:icon="@drawable/ic_menu_send"
+            android:key="ntriplocation"
+            android:summary="@string/location_type"
+            android:title="@string/location_type" />
+        <EditTextPreference
+            android:defaultValue="40.000"
+            android:dialogTitle="-90 to 90"
+            android:icon="@drawable/ic_menu_send"
+            android:inputType="numberDecimal|numberSigned"
+            android:key="ntriplatitude"
+            android:title="@string/lat" />
+        <EditTextPreference
+            android:defaultValue="117.000"
+            android:dialogTitle="-180 to 180"
+            android:icon="@drawable/ic_menu_send"
+            android:inputType="numberDecimal|numberSigned"
+            android:key="ntriplongitude"
+            android:title="@string/lon" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="bluetooth_setting"
+        android:title="@string/bluetooth_setting">
+        <EditTextPreference
+            android:defaultValue="00.00.00.00:00:00"
+            android:dialogTitle="@string/blutooth_mac"
+            android:icon="@drawable/ic_menu_send"
+            android:key="bluetooth_mac"
+            android:summary="00.00.00.00:00:00"
+            android:title="@string/blutooth_mac" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="otg_setting"
+        android:title="@string/otg_setting">
+        <ListPreference
+            android:defaultValue="9600"
+            android:entries="@array/baud_rates"
+            android:entryValues="@array/baud_rates"
+            android:icon="@drawable/ic_menu_send"
+            android:key="pBaudRate"
+            android:summary="@string/baud_rate"
+            android:title="@string/baud_rate" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/share_setting">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_menu_send"
+            android:key="multiuser"
+            android:title="@string/user_multiuser" />
+        <EditTextPreference
+            android:defaultValue="username"
+            android:dialogTitle="@string/share_username"
+            android:icon="@drawable/ic_menu_send"
+            android:key="shareusername"
+            android:summary="shareusername"
+            android:title="@string/share_username" />
+        <EditTextPreference
+            android:defaultValue="password"
+            android:dialogTitle="@string/share_password"
+            android:icon="@drawable/ic_menu_send"
+            android:key="sharepassword"
+            android:summary="sharepassword"
+            android:title="@string/share_password" />
+        <EditTextPreference
+            android:defaultValue="NtripShare"
+            android:dialogTitle="@string/mountpoint"
+            android:icon="@drawable/ic_menu_send"
+            android:key="sharemountpoint"
+            android:summary="NtripShare"
+            android:title="@string/mountpoint" />
+        <EditTextPreference
+            android:defaultValue="2"
+            android:dialogTitle="@string/max_user_num"
+            android:icon="@drawable/ic_menu_send"
+            android:inputType="number"
+            android:key="usernum"
+            android:summary="usernum"
+            android:title="@string/max_user_num" />
+        <EditTextPreference
+            android:defaultValue="30"
+            android:dialogTitle="@string/max_dis"
+            android:icon="@drawable/ic_menu_send"
+            android:inputType="number"
+            android:key="maxDis"
+            android:summary="maxDis"
+            android:title="@string/max_dis" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_menu_send"
+            android:key="requireGGA"
+            android:title="@string/upload_gga" />
+        <EditTextPreference
+            android:defaultValue="30"
+            android:dialogTitle="@string/remove_client_time"
+            android:icon="@drawable/ic_menu_send"
+            android:inputType="number"
+            android:key="ggaTime"
+            android:summary="30"
+            android:title="@string/remove_client_time" />
+    </PreferenceCategory>
+</PreferenceScreen>

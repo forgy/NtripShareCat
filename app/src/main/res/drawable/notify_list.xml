@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_launcher" android:maxLevel="0" />
+    <item android:drawable="@drawable/ic_launcher" android:maxLevel="1" />
+    <item android:drawable="@drawable/ic_launcher" android:maxLevel="2" />
+    <item android:drawable="@drawable/ic_launcher" android:maxLevel="3" />
+    <item android:drawable="@drawable/ic_launcher" android:maxLevel="4" />
+    <item android:drawable="@drawable/ic_launcher" android:maxLevel="5" />
+    <item android:drawable="@drawable/ic_launcher" android:maxLevel="6" />
+    <item android:drawable="@drawable/ic_launcher" android:maxLevel="7" />
+    <item android:drawable="@drawable/ic_launcher" android:maxLevel="8" />
+    <item android:drawable="@drawable/ic_launcher" android:maxLevel="9" />
+    <item android:drawable="@drawable/ic_launcher" android:maxLevel="10" />
+</level-list>

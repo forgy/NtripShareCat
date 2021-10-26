@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/cardview_light_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:paddingLeft="20.0dip"
+
+            android:paddingRight="20.0dip"
+            android:text="@string/feedback"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:visibility="visible" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/des"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:lineSpacingMultiplier="1.5"
+                android:paddingLeft="20.0dip"
+                android:paddingTop="15.0dip"
+                android:paddingRight="20.0dip"
+                android:paddingBottom="15.0dip"
+                android:layout_weight="1"
+                android:minLines="5"
+                android:gravity="top"
+                android:text=""
+                android:hint="@string/feedback_des"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <EditText android:id="@+id/weixin"
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:background="#ffffff"
+                android:gravity="left|center"
+                android:lineSpacingMultiplier="1.5"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="15.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_marginBottom="15.0dip"
+                android:hint="@string/feedback_phone"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/addfeedbacknegtive"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/cancel"
+                android:textSize="16sp" />
+            <Button
+                android:id="@+id/addfeedbackpositive"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/ok"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

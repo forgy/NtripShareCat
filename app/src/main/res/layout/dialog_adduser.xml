@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/cardview_light_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleAdduser"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="@string/add_user"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40.0dip"
+                android:background="#ffffff"
+                android:gravity="left|center"
+                android:lineSpacingMultiplier="1.5"
+                android:layout_margin="5dp"
+                android:text="@string/user_username"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/textViewUsername"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:gravity="left|center"
+                android:hint="@string/username_hint"
+                android:lineSpacingMultiplier="1.5"
+                android:layout_margin="5dp"
+                android:text=""
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40.0dip"
+                android:background="#ffffff"
+                android:gravity="left|center"
+                android:layout_margin="5dp"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/node_password"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/textViewPassword"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:layout_margin="5dp"
+                android:gravity="left|center"
+                android:hint="@string/hint_password"
+                android:lineSpacingMultiplier="1.5"
+                android:text=""
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40.0dip"
+                android:background="#ffffff"
+                android:gravity="left|center"
+                android:layout_margin="5dp"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/user_endtime"
+
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/textViewEndtime"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:layout_margin="5dp"
+                android:gravity="left|center"
+                android:lineSpacingMultiplier="1.5"
+                android:text=""
+                android:hint="@string/hint_endtime"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/addusernegtive"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:background="@color/design_default_color_background"
+                android:text="@string/copy"
+                android:textColor="@color/colorPrimary"
+
+                android:textSize="16sp" />
+            <View
+                android:id="@+id/column_line"
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="#E4E4E4" />
+
+            <Button
+                android:id="@+id/adduserpositive"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/design_default_color_background"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:singleLine="true"
+                android:text="@string/update"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>
