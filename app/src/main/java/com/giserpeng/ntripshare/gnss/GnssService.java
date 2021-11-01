@@ -6,14 +6,6 @@ import com.giserpeng.ntripshare.gnss.listener.RTCMParserListener;
 import com.giserpeng.ntripshare.gnss.nmea.NMEAManager;
 import com.giserpeng.ntripshare.gnss.rtcm.RTCMManager;
 
-/**
- * <p>Title: </p>
- * <p>Description: </p>
- * <p>Company: Copyright (c) 太昌电子 2018</p>
- *
- * @author liuhanling
- * @date 2019-04-08 10:59
- */
 public class GnssService {
 
     private NMEAManager mNMEAManager;
