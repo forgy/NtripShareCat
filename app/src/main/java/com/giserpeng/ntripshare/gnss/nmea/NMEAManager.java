@@ -14,14 +14,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-/**
- * <p>Title: </p>
- * <p>Description: </p>
- * <p>Company: Copyright (c) 太昌电子 2018</p>
- *
- * @author liuhanling
- * @date 2019-03-14 15:22
- */
+
 public class NMEAManager {
 
     private static final String TAG = "NMEAParser";

@@ -1,13 +1,6 @@
 package com.giserpeng.ntripshare.gnss.cons;
 
-/**
- * <p>Title: </p>
- * <p>Description: </p>
- * <p>Company: Copyright (c) 太昌电子 2018</p>
- *
- * @author liuhanling
- * @date 2019-04-11 15:44
- */
+
 public class Constants {
 
     public static final String GPGGA = "$GPGGA";

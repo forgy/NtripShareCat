@@ -1,13 +1,6 @@
 package com.giserpeng.ntripshare.gnss.bean;
 
-/**
- * <p>Title: </p>
- * <p>Description: </p>
- * <p>Company: Copyright (c) 太昌电子 2018</p>
- *
- * @author liuhanling
- * @date 2019-04-04 10:07
- */
+
 public class ReferenceStation {
 
     // 1006

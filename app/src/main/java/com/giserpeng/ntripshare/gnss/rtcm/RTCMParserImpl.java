@@ -20,14 +20,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * <p>Title: </p>
- * <p>Description: </p>
- * <p>Company: Copyright (c) 太昌电子 2018</p>
- *
- * @author liuhanling
- * @date 2019-04-01 18:13
- */
+
 public class RTCMParserImpl implements RTCMParser {
 
     private static final String TAG = "RTCMParser";

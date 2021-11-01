@@ -3,14 +3,7 @@ package com.giserpeng.ntripshare.gnss.rtcm.msm;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * <p>Title: </p>
- * <p>Description: </p>
- * <p>Company: Copyright (c) 太昌电子 2018</p>
- *
- * @author liuhanling
- * @date 2019-04-03 09:49
- */
+
 public class MSMSignal {
 
     private List<Integer> finePseudoRangeList = new ArrayList<>();

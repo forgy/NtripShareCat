@@ -2,14 +2,7 @@ package com.giserpeng.ntripshare.gnss.bean;
 
 import com.giserpeng.ntripshare.gnss.cons.Constants;
 
-/**
- * <p>Title: </p>
- * <p>Description: </p>
- * <p>Company: Copyright (c) 太昌电子 2018</p>
- *
- * @author liuhanling
- * @date 2019-04-10 18:24
- */
+
 public enum GnssType {
 
     GPS(1, Constants.GPS, Constants.GPGSV, Constants.MSM4_GPS),

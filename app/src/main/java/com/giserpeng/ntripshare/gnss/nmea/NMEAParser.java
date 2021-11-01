@@ -1,13 +1,6 @@
 package com.giserpeng.ntripshare.gnss.nmea;
 
-/**
- * <p>Title: </p>
- * <p>Description: </p>
- * <p>Company: Copyright (c) 太昌电子 2018</p>
- *
- * @author liuhanling
- * @date 2019-03-13 18:47
- */
+
 public interface NMEAParser {
 
     void parse(String nmea);

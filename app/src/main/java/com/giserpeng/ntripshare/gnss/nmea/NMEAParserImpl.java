@@ -13,14 +13,7 @@ import java.util.Locale;
 import java.util.Set;
 import java.util.TimeZone;
 
-/**
- * <p>Title: </p>
- * <p>Description: </p>
- * <p>Company: Copyright (c) 太昌电子 2018</p>
- *
- * @author liuhanling
- * @date 2019-03-13 18:05
- */
+
 public class NMEAParserImpl implements NMEAParser {
 
     private static final SimpleDateFormat TIME_FORMAT = new SimpleDateFormat("HHmmss", Locale.US);

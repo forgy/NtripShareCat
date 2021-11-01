@@ -5,14 +5,7 @@ import com.giserpeng.ntripshare.gnss.bean.ReferenceStation;
 import com.giserpeng.ntripshare.gnss.listener.RTCMParserHandler;
 import com.giserpeng.ntripshare.gnss.listener.RTCMParserListener;
 
-/**
- * <p>Title: </p>
- * <p>Description: </p>
- * <p>Company: Copyright (c) 太昌电子 2018</p>
- *
- * @author liuhanling
- * @date 2019-04-08 10:59
- */
+
 public class RTCMManager {
 
     private RTCMParser mRTCMParser;

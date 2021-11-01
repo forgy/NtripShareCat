@@ -4,14 +4,7 @@ import android.util.Log;
 
 import java.util.List;
 
-/**
- * <p>Title: </p>
- * <p>Description: </p>
- * <p>Company: Copyright (c) 太昌电子 2018</p>
- *
- * @author liuhanling
- * @date 2019-04-02 11:55
- */
+
 public class MSMHeader {
 
     private int messageNumber;

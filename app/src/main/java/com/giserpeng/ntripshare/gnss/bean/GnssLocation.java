@@ -1,13 +1,6 @@
 package com.giserpeng.ntripshare.gnss.bean;
 
-/**
- * <p>Title: </p>
- * <p>Description: </p>
- * <p>Company: Copyright (c) 太昌电子 2018</p>
- *
- * @author liuhanling
- * @date 2019-03-14 15:57
- */
+
 public class GnssLocation implements Cloneable {
 
     // 时间
