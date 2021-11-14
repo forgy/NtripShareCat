@@ -133,7 +133,7 @@ RTK差分共享猫APP历经一年，已升级到1.3.4版本，好比一个孩子
 - 3、	在共享设置中设置客户端剔除时间，即客户端多长时间不上传GGA就进行下线处理。
 
 欢迎交流:
- VX:ntripsahre
+ VX:ntripshare
  QQ:273066127
  Email:giserpeng@163.com
 
